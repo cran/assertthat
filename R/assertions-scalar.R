@@ -3,7 +3,7 @@ NULL
 
 #' Assert input is a scalar.
 #' 
-#' \code{is.scala} provides a generic method for checking input is a scalar.
+#' \code{is.scalar} provides a generic method for checking input is a scalar.
 #' \code{is.string}, \code{is.flag}, \code{is.number} and \code{is.count}
 #' provide tests for specific types.
 #' 
@@ -58,7 +58,7 @@ on_failure(is.number) <- function(call, env) {
 #' @rdname scalar
 #' @export
 #' @examples
-#' # flag = scalar numeric/integer vector
+#' # flag = scalar logical vector
 #' see_if(is.flag(1:3))
 #' see_if(is.flag("a"))
 #' see_if(is.flag(c(FALSE, FALSE, TRUE)))
@@ -73,7 +73,7 @@ on_failure(is.flag) <- function(call, env) {
 #' @rdname scalar
 #' @export
 #' @examples
-#' # flag = scalar positive integer
+#' # count = scalar positive integer
 #' see_if(is.count("a"))
 #' see_if(is.count(-1))
 #' see_if(is.count(1:5))

@@ -1,5 +1,7 @@
 # assertthat
 
+[![Travis-CI Build Status](https://travis-ci.org/hadley/assertthat.svg?branch=master)](https://travis-ci.org/hadley/assertthat)
+
 assertthat provides a drop in replacement for `stopifnot()` that makes it easy to check the pre- and post-conditions of a function, while producing useful error messages.  
 
 ```R
@@ -17,9 +19,15 @@ assert_that(is.numeric(x))
 # [1] TRUE
 ```
 
-This is a good defensive programming technique, and is useful as source-code documentation: you can see exactly what your function expects when you come back to it in the future.  It is partly a response to the lack of static typing in R, but it allow you to test for general conditions (like `length(x) == length(y)`) that are difficult to express in a type system.
+This is a good defensive programming technique, and is useful as source-code documentation: you can see exactly what your function expects when you come back to it in the future.  It is partly a response to the lack of static typing in R, but it allows you to test for general conditions (like `length(x) == length(y)`) that are difficult to express in a type system.
 
-`assertthat` is not yet available on CRAN, but you can install it with devtools:
+`assertthat` can be installed either from CRAN: 
+
+```R
+install.packages('assertthat')
+```
+
+or with devtools:
 
 ```R
 devtools::install_github("hadley/assertthat")
@@ -43,7 +51,7 @@ As well as all the functions provided by R, assertthat provides a few more that 
 
 ## `assert_that`, `see_if` and `validate_that`
 
-There are two main functions in assertthat: 
+There are three main functions in assertthat: 
 
 * `assert_that()` signal an error
 

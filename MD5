@@ -1,9 +1,9 @@
-07a698042f2f9f5ab2218528d2ccb37d *DESCRIPTION
+531208f070564b2a4093549165857606 *DESCRIPTION
 bb79293f1ab9e2d571ff3428f2783ac4 *NAMESPACE
-f4b21e96be18c208d939c7f7e40239b9 *R/assert-that.r
+8a7a5801b33daa2064dd5aed273468f9 *R/assert-that.r
 c8af5f3dfed9fc81afb7ebd8a4dc8a57 *R/assertions-file.r
-154eb9399c030c8713d1550f65ed0ab9 *R/assertions-scalar.R
-ad16ac5a3ebd217c6d3271d2bcd16207 *R/assertions.r
+91a814cb5dd5c08500a04f29073e4be1 *R/assertions-scalar.R
+8bcfa2d7f9206fae5424dc5f7dcd0371 *R/assertions.r
 bf48a75f9c36892a64e81da55ede64ed *R/base-comparison.r
 6e2ffc34b89617577cd86d68edffa8b7 *R/base-is.r
 487ba0225528ba58e80015de661dc6ba *R/base-logical.r
@@ -12,7 +12,7 @@ b7a004bd983209b5a9d2aed114689a1b *R/base.r
 9cc3dc154a2ab45e4559600aba559ecc *R/on-failure.r
 508577888dc400bb76df829612db84a0 *R/utils.r
 e706aa5d6a5cd888705e86ff303ea78b *R/validate-that.R
-d96d8c06fce52277edb9a14501cd4c0a *README.md
+caaacd3a3cf919b4eb22ca679d891c2e *README.md
 f5a71fac111703163ed68d02f1e0979f *man/are_equal.Rd
 5117a630d5932adf4c66c16e987cd0f2 *man/assert-is.Rd
 5d8fa47b8988ebdac0c7fb594d2092ff *man/assert_that.Rd
@@ -25,7 +25,10 @@ dec5540a428715f1e256b791b144dd84 *man/not_empty.Rd
 52e664c380303f85d11cb1e65534e694 *man/scalar.Rd
 ac5a46b2fbda515a96e1e5455120a5f5 *man/validate_that.Rd
 ba66accab371620d17856bf99192b710 *tests/testthat.R
-c88f0213440ffde9b972ce2efebbc743 *tests/testthat/test-assertions.R
+d2df3257fa5828b45e9a93ecf8365706 *tests/testthat/test-assert-that.R
+1e5b6209192436f10acdb8a622470049 *tests/testthat/test-assertions.R
+3836fc3bcc2b7c98aad2788d9b0b0c26 *tests/testthat/test-base-comparison.R
 94f403145c6ca9bc307d38b154b0c14d *tests/testthat/test-base.R
 5bda953b24f68051e5788d8592eae233 *tests/testthat/test-file.R
-4217b26332614578760405ab126b09a7 *tests/testthat/test-scalar.R
+782a292bfa6943a232780d49fe0e3b95 *tests/testthat/test-on-failure.R
+ecf2a3feac5a015bfcb0beb29a0cf090 *tests/testthat/test-scalar.R
